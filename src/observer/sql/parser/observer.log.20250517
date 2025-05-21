@@ -1,0 +1,12 @@
+[2025-05-17 10:05:24.655579 pid:4996 tid:fffff7fea020 ctx:0 INFO: accept@server.cpp:127] >> Accepted connection from 127.0.0.1:25270
+
+[2025-05-17 10:05:24.661222 pid:4996 tid:fffff2e78100 ctx:0 INFO: operator()@one_thread_per_connection_thread_handler.cpp:70] >> worker thread start. communicator = 0x50b000001c70
+[2025-05-17 10:05:33.913434 pid:4996 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=12): show tables
+[2025-05-17 10:05:33.924447 pid:4996 tid:fffff2e78100 ctx:503000024d90 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-17 10:05:42.538746 pid:4996 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=17): select * from t4
+[2025-05-17 10:05:42.542694 pid:4996 tid:fffff2e78100 ctx:503000024d90 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-17 10:05:42.548136 pid:4996 tid:fffff2e78100 ctx:503000024d90 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-17 10:09:13.485112 pid:4996 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:82] >> The peer has been closed 127.0.0.1:25270
+[2025-05-17 10:09:13.486793 pid:4996 tid:fffff2e78100 ctx:0 ERROR: operator()@one_thread_per_connection_thread_handler.cpp:98] >> handle error. rc = IOERR_CLOSE
+[2025-05-17 10:09:13.487153 pid:4996 tid:fffff2e78100 ctx:0 INFO: operator()@one_thread_per_connection_thread_handler.cpp:103] >> worker thread stop. communicator = 0x50b000001c70
+[2025-05-17 10:09:13.489142 pid:4996 tid:fffff2e78100 ctx:0 INFO: close_connection@one_thread_per_connection_thread_handler.cpp:154] >> close connection. communicator = 0x50b000001c70

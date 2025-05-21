@@ -107,6 +107,8 @@ UnboundAggregateExpr *create_aggregate_expression(const char *aggregate_name,
         EXPLAIN
         STORAGE
         FORMAT
+        ORDER
+        ASC
         EQ
         LT
         GT
@@ -133,6 +135,8 @@ UnboundAggregateExpr *create_aggregate_expression(const char *aggregate_name,
   char *                                     cstring;
   int                                        number;
   float                                      floats;
+  OrderBySqlNode *                           order_by_node;
+  std::vector<OrderBySqlNode> *              order_by_list;
 }
 
 %token <number> NUMBER
@@ -164,6 +168,9 @@ UnboundAggregateExpr *create_aggregate_expression(const char *aggregate_name,
 %type <expression_list>     group_by
 
 %type <join_list>           join_list
+%type <order_by_list>       order_by_list
+%type <order_by_list>       order_by
+%type <order_by_node>       order_by_item
 %type <sql_node>            calc_stmt
 %type <sql_node>            select_stmt
 %type <sql_node>            insert_stmt
@@ -452,7 +459,7 @@ update_stmt:      /*  update 语句的语法解析树*/
     }
     ;
 select_stmt:        /*  select 语句的语法解析树*/
-    SELECT expression_list FROM rel_list join_list where group_by 
+    SELECT expression_list FROM rel_list join_list where group_by  order_by
     {
       $$ = new ParsedSqlNode(SCF_SELECT);
       if ($2 != nullptr) {
@@ -480,7 +487,62 @@ select_stmt:        /*  select 语句的语法解析树*/
         delete $7;
 
       }
+            // order by
+      if ($8 != nullptr) {
+        $$->selection.order_by.swap(*$8);
+        std::reverse($$->selection.order_by.begin(), $$->selection.order_by.end());
+        delete $8;
+      }
 
+    }
+    ;
+
+order_by:
+    /* empty */
+    {
+      $$ = nullptr;
+    }
+    | ORDER BY order_by_list
+    {
+      $$ = new std::vector<OrderBySqlNode>;
+      $$->swap(*$3);
+      delete $3;
+    }
+    ;
+
+order_by_list:
+    order_by_item
+    {
+      $$ = new std::vector<OrderBySqlNode>;
+      $$->push_back(std::move(*$1));
+      delete $1;
+    }
+    | order_by_item COMMA order_by_list
+    {
+      $$ = $3;
+      $$->push_back(std::move(*$1));
+      delete $1;
+    }
+    ;
+
+order_by_item:
+    expression
+    {
+      $$ = new OrderBySqlNode;
+      $$->expression = std::unique_ptr<Expression>($1);
+      $$->is_desc = false;
+    }
+    | expression ASC
+    {
+      $$ = new OrderBySqlNode;
+      $$->expression = std::unique_ptr<Expression>($1);
+      $$->is_desc = false;
+    }
+    | expression DESC
+    {
+      $$ = new OrderBySqlNode;
+      $$->expression = std::unique_ptr<Expression>($1);
+      $$->is_desc = true;
     }
     ;
 calc_stmt:
@@ -699,12 +761,20 @@ comp_op:
     ;
 
 // your code here
+
 group_by:
     /* empty */
     {
       $$ = nullptr;
     }
+    | GROUP BY expression_list
+    {
+      $$ = new std::vector<std::unique_ptr<Expression>>;
+      $$->swap(*$3);
+      delete $3;
+    }
     ;
+
 load_data_stmt:
     LOAD DATA INFILE SSS INTO TABLE ID 
     {
