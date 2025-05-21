@@ -1,0 +1,275 @@
+[2025-05-21 12:02:31.057910 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@init.cpp:200] >> Output configuration 
+Begin dump configuration
+[]
+
+Finish dump configuration 
+
+[2025-05-21 12:02:31.058643 pid:39205 tid:fffff7fea020 ctx:0 WARN: create_db@default_handler.cpp:90] >> Db already exists: sys
+[2025-05-21 12:02:31.059525 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:128, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.059934 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:256, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.060367 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:384, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.060720 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:512, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.061090 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:640, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.061428 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:768, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.061829 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:896, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.062226 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1024, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.062584 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1152, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.062928 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1280, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.063247 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1408, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.063644 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1536, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.063983 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1664, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.064342 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1792, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.064665 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:1920, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.064990 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:2048, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.065337 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:2176, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.065620 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:2304, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.065947 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:2432, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.066316 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.h:244] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.066357 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@mem_pool.h:191] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2025-05-21 12:02:31.066400 pid:39205 tid:fffff7fea020 ctx:0 INFO: BufferPoolManager@disk_buffer_pool.cpp:775] >> buffer pool manager init with memory size 20971520, page num: 2560, pool num: 20
+[2025-05-21 12:02:31.067422 pid:39205 tid:fffff7fea020 ctx:0 INFO: load_pages@double_write_buffer.cpp:287] >> double write buffer load pages done. page num=2
+[2025-05-21 12:02:31.068010 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_meta@db.cpp:354] >> Successfully read db meta file. db=sys, file=miniob/db/sys/sys.db, check_point_lsn=0
+[2025-05-21 12:02:31.069803 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.069847 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=f
+[2025-05-21 12:02:31.070181 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/join_table_5.data.
+[2025-05-21 12:02:31.070427 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/join_table_5.data. file_desc=5, hdr_frame=0xfffff4ff1808, file header=pageCount:1, allocatedCount:1
+[2025-05-21 12:02:31.070534 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=0, rc=SUCCESS
+[2025-05-21 12:02:31.070606 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.070662 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: join_table_5, file: join_table_5.table
+[2025-05-21 12:02:31.071069 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=a
+[2025-05-21 12:02:31.071193 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/t3.data.
+[2025-05-21 12:02:31.071372 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/t3.data. file_desc=6, hdr_frame=0xfffff4ff38a0, file header=pageCount:1, allocatedCount:1
+[2025-05-21 12:02:31.071419 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=0, rc=SUCCESS
+[2025-05-21 12:02:31.071464 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.071515 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: t3, file: t3.table
+[2025-05-21 12:02:31.071859 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.071900 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=name
+[2025-05-21 12:02:31.072000 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/join_table_1.data.
+[2025-05-21 12:02:31.072180 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/join_table_1.data. file_desc=7, hdr_frame=0xfffff4ff5938, file header=pageCount:2, allocatedCount:2
+[2025-05-21 12:02:31.072498 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=1, rc=SUCCESS
+[2025-05-21 12:02:31.072529 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.072561 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: join_table_1, file: join_table_1.table
+[2025-05-21 12:02:31.072813 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.072843 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=num2
+[2025-05-21 12:02:31.072937 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/join_table_3.data.
+[2025-05-21 12:02:31.073121 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/join_table_3.data. file_desc=8, hdr_frame=0xfffff4ff9a68, file header=pageCount:2, allocatedCount:2
+[2025-05-21 12:02:31.073205 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=1, rc=SUCCESS
+[2025-05-21 12:02:31.073233 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.073271 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: join_table_3, file: join_table_3.table
+[2025-05-21 12:02:31.073473 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=d
+[2025-05-21 12:02:31.073571 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/t5.data.
+[2025-05-21 12:02:31.073748 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/t5.data. file_desc=9, hdr_frame=0xfffff4ffdb98, file header=pageCount:1, allocatedCount:1
+[2025-05-21 12:02:31.073793 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=0, rc=SUCCESS
+[2025-05-21 12:02:31.073818 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.073842 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: t5, file: t5.table
+[2025-05-21 12:02:31.074095 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.074127 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=age
+[2025-05-21 12:02:31.074229 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/tasdasda.data.
+[2025-05-21 12:02:31.074393 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/tasdasda.data. file_desc=10, hdr_frame=0xfffff4fffc30, file header=pageCount:2, allocatedCount:2
+[2025-05-21 12:02:31.074464 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=1, rc=SUCCESS
+[2025-05-21 12:02:31.074497 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.074529 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: tasdasda, file: tasdasda.table
+[2025-05-21 12:02:31.074720 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.074752 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=name
+[2025-05-21 12:02:31.074860 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/join_table_4.data.
+[2025-05-21 12:02:31.075028 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/join_table_4.data. file_desc=11, hdr_frame=0xfffff5003d60, file header=pageCount:2, allocatedCount:2
+[2025-05-21 12:02:31.075094 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=1, rc=SUCCESS
+[2025-05-21 12:02:31.075119 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.075149 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: join_table_4, file: join_table_4.table
+[2025-05-21 12:02:31.075350 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=f
+[2025-05-21 12:02:31.075454 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/fl.data.
+[2025-05-21 12:02:31.075586 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/fl.data. file_desc=12, hdr_frame=0xfffff5007e90, file header=pageCount:1, allocatedCount:1
+[2025-05-21 12:02:31.075647 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=0, rc=SUCCESS
+[2025-05-21 12:02:31.075674 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.075704 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: fl, file: fl.table
+[2025-05-21 12:02:31.075942 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.075976 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=u_date
+[2025-05-21 12:02:31.076261 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/date_table.data.
+[2025-05-21 12:02:31.076470 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/date_table.data. file_desc=13, hdr_frame=0xfffff5009f28, file header=pageCount:1, allocatedCount:1
+[2025-05-21 12:02:31.076550 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=0, rc=SUCCESS
+[2025-05-21 12:02:31.076580 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.076756 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/date_table-index_id.index.
+[2025-05-21 12:02:31.076978 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/date_table-index_id.index. file_desc=14, hdr_frame=0xfffff500bfc0, file header=pageCount:2, allocatedCount:2
+[2025-05-21 12:02:31.077185 pid:39205 tid:fffff7fea020 ctx:0 INFO: extend@mem_pool.cpp:96] >> Extend one pool, this->size:128, item_size:12, item_num_per_pool:128, this->name:b+tree.
+[2025-05-21 12:02:31.077236 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@mem_pool.cpp:42] >> Extend one pool, this->size:128, item_size:12, item_num_per_pool:128, this->name:b+tree.
+[2025-05-21 12:02:31.077270 pid:39205 tid:fffff7fea020 ctx:0 INFO: open@bplus_tree.cpp:962] >> Successfully open index
+[2025-05-21 12:02:31.077475 pid:39205 tid:fffff7fea020 ctx:0 INFO: open@bplus_tree.cpp:923] >> open b+tree success. filename=miniob/db/sys/date_table-index_id.index
+[2025-05-21 12:02:31.077510 pid:39205 tid:fffff7fea020 ctx:0 INFO: open@bplus_tree_index.cpp:69] >> Successfully open index, file_name:miniob/db/sys/date_table-index_id.index, index:index_id, field:u_date
+[2025-05-21 12:02:31.077545 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: date_table, file: date_table.table
+[2025-05-21 12:02:31.077821 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.077864 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=num
+[2025-05-21 12:02:31.077894 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=price
+[2025-05-21 12:02:31.077928 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=addr
+[2025-05-21 12:02:31.077955 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=birthday
+[2025-05-21 12:02:31.078088 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/aggregation_func.data.
+[2025-05-21 12:02:31.078286 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/aggregation_func.data. file_desc=15, hdr_frame=0xfffff50100f0, file header=pageCount:2, allocatedCount:2
+[2025-05-21 12:02:31.078354 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=1, rc=SUCCESS
+[2025-05-21 12:02:31.078406 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.078446 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: aggregation_func, file: aggregation_func.table
+[2025-05-21 12:02:31.078741 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.078772 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=num
+[2025-05-21 12:02:31.078874 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/join_table_2.data.
+[2025-05-21 12:02:31.079060 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/join_table_2.data. file_desc=16, hdr_frame=0xfffff5014220, file header=pageCount:2, allocatedCount:2
+[2025-05-21 12:02:31.079134 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=1, rc=SUCCESS
+[2025-05-21 12:02:31.079175 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.079209 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: join_table_2, file: join_table_2.table
+[2025-05-21 12:02:31.079483 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=a
+[2025-05-21 12:02:31.079517 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=b
+[2025-05-21 12:02:31.079625 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/nt.data.
+[2025-05-21 12:02:31.079797 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/nt.data. file_desc=17, hdr_frame=0xfffff5018350, file header=pageCount:1, allocatedCount:1
+[2025-05-21 12:02:31.079847 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=0, rc=SUCCESS
+[2025-05-21 12:02:31.079877 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.079905 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: nt, file: nt.table
+[2025-05-21 12:02:31.080146 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=i
+[2025-05-21 12:02:31.080180 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=f
+[2025-05-21 12:02:31.080274 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/t4.data.
+[2025-05-21 12:02:31.080478 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/t4.data. file_desc=18, hdr_frame=0xfffff501a3e8, file header=pageCount:2, allocatedCount:2
+[2025-05-21 12:02:31.080548 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=1, rc=SUCCESS
+[2025-05-21 12:02:31.080586 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.080623 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: t4, file: t4.table
+[2025-05-21 12:02:31.080846 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=a
+[2025-05-21 12:02:31.080881 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=d
+[2025-05-21 12:02:31.080993 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/t6.data.
+[2025-05-21 12:02:31.081167 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/t6.data. file_desc=23, hdr_frame=0xfffff501e518, file header=pageCount:2, allocatedCount:2
+[2025-05-21 12:02:31.081245 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=1, rc=SUCCESS
+[2025-05-21 12:02:31.081275 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.081318 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: t6, file: t6.table
+[2025-05-21 12:02:31.081560 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.081593 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=age
+[2025-05-21 12:02:31.081737 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/t_order_by_2.data.
+[2025-05-21 12:02:31.081920 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/t_order_by_2.data. file_desc=24, hdr_frame=0xfffff5022648, file header=pageCount:1, allocatedCount:1
+[2025-05-21 12:02:31.081962 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=0, rc=SUCCESS
+[2025-05-21 12:02:31.081987 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.082021 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: t_order_by_2, file: t_order_by_2.table
+[2025-05-21 12:02:31.082329 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.082365 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=age
+[2025-05-21 12:02:31.082480 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/t_group_by_2.data.
+[2025-05-21 12:02:31.082736 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/t_group_by_2.data. file_desc=25, hdr_frame=0xfffff50246e0, file header=pageCount:1, allocatedCount:1
+[2025-05-21 12:02:31.082781 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=0, rc=SUCCESS
+[2025-05-21 12:02:31.082813 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.082846 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: t_group_by_2, file: t_group_by_2.table
+[2025-05-21 12:02:31.083048 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.083080 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=score
+[2025-05-21 12:02:31.083110 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=name
+[2025-05-21 12:02:31.083204 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/t_order_by.data.
+[2025-05-21 12:02:31.083353 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/t_order_by.data. file_desc=26, hdr_frame=0xfffff5026778, file header=pageCount:1, allocatedCount:1
+[2025-05-21 12:02:31.083832 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=0, rc=SUCCESS
+[2025-05-21 12:02:31.083917 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.084426 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: t_order_by, file: t_order_by.table
+[2025-05-21 12:02:31.085315 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=id
+[2025-05-21 12:02:31.085410 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=score
+[2025-05-21 12:02:31.085507 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@field_meta.cpp:57] >> Init a field with name=name
+[2025-05-21 12:02:31.086465 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:236] >> Successfully open buffer pool file miniob/db/sys/t_group_by.data.
+[2025-05-21 12:02:31.087046 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_file@disk_buffer_pool.cpp:274] >> Successfully open miniob/db/sys/t_group_by.data. file_desc=27, hdr_frame=0xfffff5028810, file header=pageCount:2, allocatedCount:2
+[2025-05-21 12:02:31.088110 pid:39205 tid:fffff7fea020 ctx:0 INFO: init_free_pages@record_manager.cpp:538] >> record file handler init free pages done. free page num=1, rc=SUCCESS
+[2025-05-21 12:02:31.088201 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@record_manager.cpp:497] >> open record file handle done. rc=SUCCESS
+[2025-05-21 12:02:31.088706 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:234] >> Open table: t_group_by, file: t_group_by.table
+[2025-05-21 12:02:31.088792 pid:39205 tid:fffff7fea020 ctx:0 INFO: open_all_tables@db.cpp:237] >> All table have been opened. num=18
+[2025-05-21 12:02:31.091081 pid:39205 tid:fffff7fea020 ctx:0 INFO: recover@db.cpp:318] >> Successfully recover db. db=sys checkpoint_lsn=0
+[2025-05-21 12:02:31.091434 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@default_handler.cpp:66] >> Default handler init with miniob success
+[2025-05-21 12:02:31.091540 pid:39205 tid:fffff7fea020 ctx:0 INFO: init@init.cpp:215] >> Successfully init utility
+[2025-05-21 12:02:31.092047 pid:39205 tid:fffff7fea020 ctx:0 INFO: start_tcp_server@server.cpp:192] >> Listen on port 6789
+[2025-05-21 12:02:31.092139 pid:39205 tid:fffff7fea020 ctx:0 INFO: start_tcp_server@server.cpp:195] >> Observer start success
+[2025-05-21 12:03:42.601881 pid:39205 tid:fffff7fea020 ctx:0 INFO: accept@server.cpp:127] >> Accepted connection from 127.0.0.1:59099
+
+[2025-05-21 12:03:42.611703 pid:39205 tid:fffff2e78100 ctx:0 INFO: operator()@one_thread_per_connection_thread_handler.cpp:70] >> worker thread start. communicator = 0x50b000001c70
+[2025-05-21 12:03:57.106033 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=12): show tables
+[2025-05-21 12:03:57.111799 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:04:31.040014 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=47): CREATE TABLE date_table(id int, u_date date);
+
+[2025-05-21 12:04:31.043715 pid:39205 tid:fffff2e78100 ctx:503000025930 WARN: create_table@db.cpp:142] >> date_table has been opened before.
+[2025-05-21 12:04:31.044264 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:04:33.786981 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=47): CREATE TABLE date_table(id int, u_date date);
+
+[2025-05-21 12:04:33.787692 pid:39205 tid:fffff2e78100 ctx:503000025930 WARN: create_table@db.cpp:142] >> date_table has been opened before.
+[2025-05-21 12:04:33.788017 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:04:53.753915 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=27): SELECT * FROM date_table ;
+[2025-05-21 12:04:53.758533 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:04:53.760186 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:04:59.596610 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=49): INSERT INTO date_table VALUES (1,'2020-01-21');
+
+[2025-05-21 12:04:59.599621 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:04:59.601027 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: allocate_page@disk_buffer_pool.cpp:408] >> allocate new page by extending bufferpool. buffer_pool_id=7, pageNum=1, pin=1
+[2025-05-21 12:04:59.605168 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: allocate_page@disk_buffer_pool.cpp:408] >> allocate new page by extending bufferpool. buffer_pool_id=8, pageNum=2, pin=1
+[2025-05-21 12:04:59.607974 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:05:07.688002 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=49): INSERT INTO date_table VALUES (2,'2020-10-21');
+
+[2025-05-21 12:05:07.689259 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:05:07.691456 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:05:11.177031 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=48): INSERT INTO date_table VALUES (3,'2020-1-01');
+
+[2025-05-21 12:05:11.177351 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:05:11.177706 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:05:15.517194 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=60): -- sort SELECT * FROM date_table WHERE u_date>'2020-1-20';
+
+[2025-05-21 12:05:15.518549 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:05:20.305818 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=51): SELECT * FROM date_table WHERE u_date>'2020-1-20';
+[2025-05-21 12:05:20.308412 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:05:20.310233 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:05:43.026517 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=50): DELETE FROM date_table WHERE u_date>'2012-2-29';
+
+[2025-05-21 12:05:43.031804 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:05:43.040942 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:06:38.187134 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=27): SELECT * FROM date_table ;
+[2025-05-21 12:06:38.192427 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:06:38.194540 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:16:54.839678 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=46): CREATE INDEX index_id on date_table(u_date);
+
+[2025-05-21 12:16:54.842094 pid:39205 tid:fffff2e78100 ctx:503000025930 WARN: create@create_index_stmt.cpp:52] >> index with name(index_id) already exists. table name=date_table
+[2025-05-21 12:16:54.842301 pid:39205 tid:fffff2e78100 ctx:503000025930 WARN: handle_request@resolve_stage.cpp:50] >> failed to create stmt. rc=30:SCHEMA_INDEX_NAME_REPEAT
+[2025-05-21 12:16:54.842759 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:17:01.524434 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=46): CREATE INDEX index_id on date_table(u_date);
+
+[2025-05-21 12:17:01.525199 pid:39205 tid:fffff2e78100 ctx:503000025930 WARN: create@create_index_stmt.cpp:52] >> index with name(index_id) already exists. table name=date_table
+[2025-05-21 12:17:01.525692 pid:39205 tid:fffff2e78100 ctx:503000025930 WARN: handle_request@resolve_stage.cpp:50] >> failed to create stmt. rc=30:SCHEMA_INDEX_NAME_REPEAT
+[2025-05-21 12:17:01.526221 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:17:08.343613 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=49): INSERT INTO date_table VALUES (1,'2020-01-21');
+
+[2025-05-21 12:17:08.345835 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:17:08.350973 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:19:05.653544 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=49): INSERT INTO date_table VALUES (2,'2020-10-21');
+
+[2025-05-21 12:19:05.655264 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:19:05.656419 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:19:27.686077 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=48): INSERT INTO date_table VALUES (3,'2020-1-01');
+
+[2025-05-21 12:19:27.688000 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:19:27.689373 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:19:32.062503 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=48): INSERT INTO date_table VALUES (4,'2020-01-1');
+
+[2025-05-21 12:19:32.063902 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:19:32.065699 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:19:35.690240 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=49): INSERT INTO date_table VALUES (5,'2019-12-21');
+
+[2025-05-21 12:19:35.690492 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:19:35.690787 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:19:39.415776 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=48): INSERT INTO date_table VALUES (6,'2016-2-29');
+
+[2025-05-21 12:19:39.417803 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:19:39.419546 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:19:42.720525 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=47): INSERT INTO date_table VALUES (7,'1970-1-1');
+
+[2025-05-21 12:19:42.723379 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:19:42.725376 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:19:45.920243 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=49): INSERT INTO date_table VALUES (8,'2000-01-01');
+
+[2025-05-21 12:19:45.921396 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:19:45.923496 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:19:49.068693 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=48): INSERT INTO date_table VALUES (9,'2038-1-19');
+
+[2025-05-21 12:19:49.069070 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:19:49.069508 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:19:54.298865 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=51): SELECT * FROM date_table WHERE u_date>'2020-1-20';
+[2025-05-21 12:19:54.302420 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:19:54.304587 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:19:59.506084 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=52): SELECT * FROM date_table WHERE u_date<'2019-12-31';
+[2025-05-21 12:19:59.507638 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:19:59.509679 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:20:04.033275 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=50): SELECT * FROM date_table WHERE u_date='2020-1-1';
+[2025-05-21 12:20:04.034908 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:20:04.036331 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: handle_event@sql_task_handler.cpp:46] >> write result return SUCCESS
+[2025-05-21 12:20:08.527526 pid:39205 tid:fffff2e78100 ctx:0 INFO: read_event@plain_communicator.cpp:89] >> receive command(size=50): DELETE FROM date_table WHERE u_date>'2012-2-29';
+
+[2025-05-21 12:20:08.529421 pid:39205 tid:fffff2e78100 ctx:503000025930 INFO: generate_physical_plan@optimize_stage.cpp:84] >> use tuple iterator
+[2025-05-21 12:20:08.531558 pid:39205 tid:fffff2e78100 ctx:503000025930 PANIC: write_latch@frame.cpp:71] >> frame lock write while holding the read lock.this=0xfffff5030a70, pin=2, frameId=buffer_pool_id:8,page_num:2, xid=503000025930, lbt=0x7e7d0 0x59d154 0x1734b4 0x171178 0x1fa990 0x41c040 0x41a27c 0x419d90 0x42b374 0x44bb34 0x26bad4 0x28e844 0x323b84 0xda264 0x2faddc 0x2f97b4 0xcdb64 0x2ec940 0x2f38c4 0x2f3898 0x2f3818 0x2f37d8 0x2f3790 0x2f372c 0x2f3700 0x2f36e0 0xe1ae0 0x5f3d4 0x8597c 0xeba4c
+[2025-05-21 12:20:08.535393 pid:39205 tid:fffff2e78100 ctx:503000025930 PANIC: write_latch@frame.cpp:71] >> 0x7e7d0 0x59d154 0x173d70 0x171178 0x1fa990 0x41c040 0x41a27c 0x419d90 0x42b374 0x44bb34 0x26bad4 0x28e844 0x323b84 0xda264 0x2faddc 0x2f97b4 0xcdb64 0x2ec940 0x2f38c4 0x2f3898 0x2f3818 0x2f37d8 0x2f3790 0x2f372c 0x2f3700 0x2f36e0 0xe1ae0 0x5f3d4 0x8597c 0xeba4c
